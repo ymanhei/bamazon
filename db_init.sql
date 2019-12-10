@@ -10,7 +10,8 @@ CREATE TABLE products (
   product_name varchar(50) ,
   department_name varchar(50) ,
   price double,
-  stock_quantity integer
+  stock_quantity integer,
+  primary key (id)
   );
   
   INSERT INTO products (product_name,department_name,price,stock_quantity) VALUES
@@ -43,3 +44,4 @@ CREATE TABLE products (
   INSERT INTO products (product_name,department_name,price,stock_quantity) VALUES
   ("Toliet Paper","Others",12.5,88);
   
+  SELECT * FROM products;
