@@ -16,3 +16,6 @@ The system will ask you to order one of the products by the name and id.
 
 4. Once you have entered the quantity, the purchase will be successful if the stock level is sufficient. The total cost will be shown on the screen. After that, the system will go back to point 2 for the next purchase.
 ![Alt text](https://github.com/ymanhei/bamazon/blob/master/screenshots/4.PNG?raw=true "Optional Title")
+
+5. If the stock level cannot support your purchase, the transaction will not be made and the system will inform you to try again later.
+![Alt text](https://github.com/ymanhei/bamazon/blob/master/screenshots/5.PNG?raw=true "Optional Title")
